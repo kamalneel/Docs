@@ -1,7 +1,7 @@
 |image0|
     
 ########################    
-Transit Network VPC
+Transit VPC implementation using Aviatrix Solution
 ########################
 
 AWS Reference Deployment Guide
@@ -12,16 +12,10 @@ Last updated: May 10, 2017
 1  Overview
 ===========
 
-Aviatrix is a next generation cloud networking solution built from the
-ground up for the public cloud. It simplifies the way you enable site to
-cloud, user to cloud and cloud to cloud secure connectivity and access.
-The Aviatrix solution requires no new hardware and deploys in minutes.
+Aviatrix is a next-generation cloud networking solution built from the ground up for the public cloud. For people building transit VPC design, Aviatrix provides one console for building, managing, monitoring and troubleshooting all aspects of the connectivity using. 
+This console (controller) gives users the ability to implement Transit VPC design using point and click (no CLI) as well as integrate to your current orchestration system via rest APIs. 
 
-This configuration guide provides step by step instruction on how to
-build a highly available AWS Transit VPC. Below is an architecture
-diagram of what a general AWS Transit VPC deployment looks like, where a
-Hub VPC (or Transit VPC) connects many Spoke VPCs to facilitate
-communication between the Spoke VPCs and on-prem network.
+This configuration guide provides step by step instruction on how to build a highly available AWS Transit VPC.
 
 |image1|
 
